@@ -17,8 +17,8 @@ document.getElementById('chat-form').onsubmit = event => {
     message.value = '';
 };
 
-// Emit tying event on key press
-message.onkeypress = () => {
+// Emit typing event when an input occurs on the message field
+message.oninput = () => {
     socket.emit('typing', handle.value);
 };
 
