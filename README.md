@@ -1,0 +1,1 @@
+A simple chat application that I built to improve my understanding of web sockets.
